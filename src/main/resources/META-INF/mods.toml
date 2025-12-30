@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="laxamod"
+version="1.0.0"
+displayName="Laxa Mod"
+authors="BlackAngel"
+description='''
+    Mod custom pour le serveur Laxa. 
+    Inclut un menu principal personnalisé et des fonctionnalités exclusives.
+    '''
+
+[[dependencies.laxamod]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.laxamod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
