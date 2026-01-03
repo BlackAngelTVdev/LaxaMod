@@ -25,3 +25,10 @@ mandatory=true
 versionRange="[1.16.5,1.17)"
 ordering="NONE"
 side="BOTH"
+
+[[dependencies.laxamod]]
+modId="simplerrpc"
+mandatory=false # Mettre false si tu veux que ton mod marche même sans Simple RPC
+versionRange="[1.0,)"
+ordering="AFTER"
+side="BOTH"

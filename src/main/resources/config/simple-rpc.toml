@@ -1,0 +1,27 @@
+# Ton Application ID copié sur le portail Discord
+clientID = "1456699010541687036"
+
+[general]
+# Ce qui s'affiche juste sous le nom de ton application
+details = "En train de tester mon mod"
+# Ce qui s'affiche sous les détails
+state = "Dans les menus"
+
+[multiplayer]
+# Ce qui s'affiche quand il est sur un serveur
+details = "Sur le serveur : %server%"
+state = "Connecté avec %players%/%maxplayers% joueurs"
+largeImageKey = "logo_serveur"
+largeImageText = "En plein combat !"
+
+[singleplayer]
+# Ce qui s'affiche quand il est en solo
+details = "Aventure Solo"
+state = "Exploration du monde : %world%"
+largeImageKey = "logo_solo"
+largeImageText = "Tranquille au coin du feu"
+
+[menus]
+# Ce qui s'affiche quand il est juste sur l'écran d'accueil
+details = "Dans les menus"
+state = "Prépare son équipement"
